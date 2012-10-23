@@ -42,7 +42,7 @@
 
     Pusher.EventsDispatcher.call(this);
 
-    this.options = Pusher.Util.extend({encrypted: false}, options);
+    this.options = Pusher.Util.extend({encrypted: <ENCRYPTED>}, options);
 
     this.netInfo = new Pusher.NetInfo();
 

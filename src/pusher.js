@@ -177,9 +177,9 @@
   // Pusher defaults
   Pusher.VERSION = '<VERSION>';
 
-  Pusher.host = 'ws.pusherapp.com';
-  Pusher.ws_port = 80;
-  Pusher.wss_port = 443;
+  Pusher.host = '<HOST>';
+  Pusher.ws_port = <WS_PORT>;
+  Pusher.wss_port = <WSS_PORT>;
   Pusher.channel_auth_endpoint = '/pusher/auth';
   Pusher.cdn_http = '<CDN_HTTP>'
   Pusher.cdn_https = '<CDN_HTTPS>'

@@ -37,6 +37,10 @@ filter do |src, config|
   src.gsub! /<VERSION>/, config.version.to_s
   src.gsub! /<CDN_HTTP>/, CONFIG[:js][:cdn][:http]
   src.gsub! /<CDN_HTTPS>/, CONFIG[:js][:cdn][:https]
+  src.gsub! /<HOST>/, CONFIG[:js][:host]
+  src.gsub! /<WS_PORT>/, CONFIG[:js][:ws_port]
+  src.gsub! /<WSS_PORT>/, CONFIG[:js][:wss_port]
+  src.gsub! /<ENCRYPTED>/, CONFIG[:js][:encrypted]
   src
 end
 
