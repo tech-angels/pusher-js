@@ -2,7 +2,7 @@
 source "http://rubygems.org"
 
 group :development do
-  gem 'jbundle', :git => "git@github.com:mloughran/jbundle.git"
+  gem 'jbundle'
   gem 'sinatra'
   gem 'pusher'
   gem 'aws-s3'
